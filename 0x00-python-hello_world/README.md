@@ -1,2 +1,3 @@
 Python - Hello, World
-- 0-run Run python script from bash script
+- 0-run -- Run python script from bash script
+- 1-run_inline -- Run python code inline
