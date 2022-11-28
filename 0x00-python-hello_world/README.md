@@ -7,3 +7,4 @@ Python - Hello, World
 - 5-print_string.py -- Print string multiple times
 - 6-concat.py -- Concatenate two strings
 - 7-edges.py -- Print parts of string
+- 8-concat_edges.py -- Create new string from string
