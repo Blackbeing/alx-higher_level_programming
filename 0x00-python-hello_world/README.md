@@ -3,3 +3,4 @@ Python - Hello, World
 - 1-run_inline -- Run python code inline
 - 2-print.py -- Print a string
 - 3-print_number.py -- Print number and string
+- 4-print_float.py  -- Print float 2 floating points
