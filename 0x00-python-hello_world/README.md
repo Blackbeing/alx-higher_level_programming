@@ -8,3 +8,4 @@ Python - Hello, World
 - 6-concat.py -- Concatenate two strings
 - 7-edges.py -- Print parts of string
 - 8-concat_edges.py -- Create new string from string
+- 9-easter_egg.py -- Print the "zen of python"
