@@ -6,4 +6,5 @@
 - 4-print_hexa.py -- Print number and its hexadecimal representation
 - 5-print_comb2.py -- Print 00-99 as and pad with 
 - 7-islower.py -- Check if character is lower or upper case
+- 8-uppercase.py -- Print string in uppercase
 
