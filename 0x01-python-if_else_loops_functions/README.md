@@ -9,4 +9,5 @@
 - 7-islower.py -- Check if character is lower or upper case
 - 8-uppercase.py -- Print string in uppercase
 - 9-print_last_digit.py -- print last digit of number
+- 10-add.py -- Function to add two numbers
 
