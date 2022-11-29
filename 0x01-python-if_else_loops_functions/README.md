@@ -5,6 +5,7 @@
 - 3-print_alphabet.py -- Print alphabet except q and e
 - 4-print_hexa.py -- Print number and its hexadecimal representation
 - 5-print_comb2.py -- Print 00-99 as and pad with 
+- 6-print_comb3.py -- Print combination of 2 digit numbers
 - 7-islower.py -- Check if character is lower or upper case
 - 8-uppercase.py -- Print string in uppercase
 
