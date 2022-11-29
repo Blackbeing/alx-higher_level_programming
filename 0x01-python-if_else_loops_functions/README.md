@@ -11,4 +11,5 @@
 - 9-print_last_digit.py -- print last digit of number
 - 10-add.py -- Function to add two numbers
 - 11-pow.py -- Function to return power of number
+- 12-fizzbuzz.py -- Fizzbuzz module
 
