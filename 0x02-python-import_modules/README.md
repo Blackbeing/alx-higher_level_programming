@@ -5,3 +5,4 @@
 - 2-args.py -- Print cmd arguments
 - 3-infinite_add.py -- Add all cmd arguments
 - 4-hidden_discovery.py -- Print names defined in pyc file
+- 5-variable_load.py -- Import and print a variable
