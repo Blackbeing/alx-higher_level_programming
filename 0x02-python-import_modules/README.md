@@ -8,3 +8,4 @@
 - 5-variable_load.py -- Import and print a variable
 - 100-my_calculator.py -- Program for calculator basic operations
 - 101-easy_print.py -- print to stdout
+- 103-fast_alphabet.py -- print alphabet in uppercase
