@@ -10,3 +10,4 @@
 - 8-multiple_returns.py -- Multiple return values
 - 9-max_integer.py -- Return largest value in list
 - 10-divisible_by_2.py --  Find all multiples of 2 in a list
+- 11-delete_at.py -- Delete list element by index
