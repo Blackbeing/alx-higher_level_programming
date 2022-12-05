@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def validate_tuple(t):
 
     if len(t) < 2:
