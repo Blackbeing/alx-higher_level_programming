@@ -5,3 +5,4 @@
 - 3-print_reversed_list_integer.py -- Print list in reverse
 - 4-new_in_list.py -- Replace lement in list without modifying orig list
 - 5-no_c.py -- Remove c and C from string
+- 6-print_matrix_integer.py -- Print matrix
