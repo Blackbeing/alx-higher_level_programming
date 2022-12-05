@@ -7,3 +7,4 @@
 - 5-no_c.py -- Remove c and C from string
 - 6-print_matrix_integer.py -- Print matrix
 - 7-add_tuple.py -- Add columns in matrix
+- 8-multiple_returns.py -- Multiple return values
