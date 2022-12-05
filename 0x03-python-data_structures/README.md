@@ -8,3 +8,4 @@
 - 6-print_matrix_integer.py -- Print matrix
 - 7-add_tuple.py -- Add columns in matrix
 - 8-multiple_returns.py -- Multiple return values
+- 9-max_integer.py -- Return largest value in list
