@@ -7,3 +7,4 @@
 - 5-number_keys.py -- Return length of keys in dictionary
 - 6-print_sorted_dictionary.py -- Print a sorted dictionary
 - 7-update_dictionary.py -- update dictionary 
+- 8-simple_delete.py -- Delete element from dictionary
