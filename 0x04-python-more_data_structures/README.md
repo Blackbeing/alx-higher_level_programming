@@ -5,3 +5,4 @@
 - 3-common_elements -- Return all common elements in two sets
 - 4-only_diff_elements --- Return all elements only in one set (symmetrical difference)
 - 5-number_keys.py -- Return length of keys in dictionary
+- 6-print_sorted_dictionary.py -- Print a sorted dictionary
