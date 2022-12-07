@@ -10,3 +10,4 @@
 - 8-simple_delete.py -- Delete element from dictionary
 - 9-multiply_by_2.py -- Return new dictionary with all values multiplied by 2
 - 10-best_score.py -- Returns a key with the biggest integer value in dict
+- 11-multiply_list_map.py -- Multiply number in list
