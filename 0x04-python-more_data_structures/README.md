@@ -4,3 +4,4 @@
 - 2-uniq_add.py -- Add all unique values in list
 - 3-common_elements -- Return all common elements in two sets
 - 4-only_diff_elements --- Return all elements only in one set (symmetrical difference)
+- 5-number_keys.py -- Return length of keys in dictionary
