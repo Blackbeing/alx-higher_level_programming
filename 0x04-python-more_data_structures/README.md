@@ -13,3 +13,4 @@
 - 11-multiply_list_map.py -- Multiply number in list
 - 12-roman_to_int.py -- Convert roman num to int
 - 100-weight_average.py -- Get weighted average of list of tuple
+- 101-square_matrix_map.py -- Compute square value of all integers of a matrix using map
