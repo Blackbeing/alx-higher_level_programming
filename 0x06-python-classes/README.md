@@ -3,5 +3,6 @@
 - 1-square.py -- initialize class
 - 2-square.py -- initialize class with type verification
 - 3-square.py -- Define class method to get area of square
-- 3-square.py -- Define class getters and setter
+- 4-square.py -- Define class getters and setter
+- 5-square.py -- Print square using #
 
