@@ -2,3 +2,4 @@
 - 0-square.py -- Empty class
 - 1-square.py -- initialize class
 - 2-square.py -- initialize class with type verification
+- 3-square.py -- Define class method to get area of square
