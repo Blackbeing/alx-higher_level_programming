@@ -1,0 +1,31 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+>>> text_indentation("full stop. Exclamation !  Comma  :  What? ")
+full stop.
+<BLANKLINE>
+Exclamation !  Comma  :
+<BLANKLINE>
+What?
+<BLANKLINE>
+
+
+>>> text_indentation(5)
+Traceback (most recent call last):
+TypeError: text must be a string
+
+>>> text_indentation("This is a sentence")
+This is a sentence
+
+>>> text_indentation("This is a sentence:::")
+This is a sentence:
+<BLANKLINE>
+:
+<BLANKLINE>
+:
+<BLANKLINE>
+
+>>> text_indentation(" This is sentence1:  This is sentence2.  ")
+This is sentence1:
+<BLANKLINE>
+This is sentence2.
+<BLANKLINE>
+
