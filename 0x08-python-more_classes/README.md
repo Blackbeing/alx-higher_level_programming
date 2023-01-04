@@ -8,5 +8,6 @@
 - 6-rectangle.py -- Class counter (number of instances available)
 - 7-rectangle.py -- Change print character
 - 8-rectangle.py -- Compare two triangle instances based on area
+- 9-rectangle.py -- Rectangle instance of square (same height and width)
 
 
