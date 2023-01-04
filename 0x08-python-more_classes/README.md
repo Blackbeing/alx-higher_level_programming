@@ -3,3 +3,5 @@
 - 1-rectangle.py -- Add getters and setters in Rectangle class
 - 1-rectangle.py -- Add getters and setters in Rectangle class
 - 3-rectangle.py -- Print rectangle using #
+- 4-rectangle.py -- String representation of rectangle (used by eval())
+
