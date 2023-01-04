@@ -7,4 +7,6 @@
 - 5-rectangle.py -- Action when deleting instance
 - 6-rectangle.py -- Class counter (number of instances available)
 - 7-rectangle.py -- Change print character
+- 8-rectangle.py -- Compare two triangle instances based on area
+
 
