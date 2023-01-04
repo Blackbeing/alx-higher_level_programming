@@ -5,4 +5,5 @@
 - 3-rectangle.py -- Print rectangle using #
 - 4-rectangle.py -- String representation of rectangle (used by eval())
 - 5-rectangle.py -- Action when deleting instance
+- 6-rectangle.py -- Class counter (number of instances available)
 
