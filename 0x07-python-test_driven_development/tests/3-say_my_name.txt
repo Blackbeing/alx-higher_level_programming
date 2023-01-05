@@ -1,9 +1,9 @@
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 >>> say_my_name("Anderson", "Njahi")
-Anderson Njahi
+My name is Anderson Njahi
 
 >>> say_my_name("Anderson")
-Anderson 
+My name is Anderson 
 
 >>> say_my_name(last_name = "Anderson")
 Traceback (most recent call last):
