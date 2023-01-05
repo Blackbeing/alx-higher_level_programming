@@ -134,12 +134,12 @@ class Rectangle:
             return rect_2
 
     @classmethod
-    """
-    Return rectangle instance of square (same height and width)
-
-    Args:
-        size (int): Size of one side
-
-    """
     def square(cls, size=0):
+        """
+        Return rectangle instance of square (same height and width)
+
+        Args:
+            size (int): Size of one side
+
+        """
         return Rectangle(width=size, height=size)
