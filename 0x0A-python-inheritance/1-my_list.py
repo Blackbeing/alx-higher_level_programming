@@ -10,12 +10,8 @@ This module defines MyList class which inherits from list object
 class MyList(list):
     """
     MyList class
-
-    __init__ method Initialize MyList object
+    Inherits from list class
     """
-    def __init__(self):
-        super().__init__(self)
-
     def print_sorted(self):
         """
         Print sorted instance of list
