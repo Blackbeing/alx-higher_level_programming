@@ -6,3 +6,4 @@
 - 4-inherits_from.py -- Check obj is instance of a class
 - 5-base_geometry.py -- Empty BaseGeometry class
 - 6-base_geometry.py -- define method in BaseGeometry class
+- 7-base_geometry.py -- Add method in BaseGeometry class
