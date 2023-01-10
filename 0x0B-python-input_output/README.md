@@ -7,3 +7,4 @@
 - 5-save_to_json_file -- Save object to file as json
 - 6-load_from_json_file -- Load object from file
 - 7-add_item.py -- Add items to list and save to file from cmd
+- 8-class_to_json.py -- Convert class to json
