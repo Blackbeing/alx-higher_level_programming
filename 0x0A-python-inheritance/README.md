@@ -7,3 +7,4 @@
 - 5-base_geometry.py -- Empty BaseGeometry class
 - 6-base_geometry.py -- define method in BaseGeometry class
 - 7-base_geometry.py -- Add method in BaseGeometry class
+- 8-rectangle.py -- Add class Rectangle that inherits from BaseGeometry
