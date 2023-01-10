@@ -10,3 +10,4 @@
 - 8-rectangle.py -- Add class Rectangle that inherits from BaseGeometry
 - 9-rectangle.py -- Implement area method of rectangle
 - 10-square.py -- Add Square class
+- 11-square.py -- Represent square differently __str__
