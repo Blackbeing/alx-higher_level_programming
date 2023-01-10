@@ -5,3 +5,4 @@
 - 3-to_json_string -- Convert object to json string
 - 4-from_json_string -- Convert json string to object
 - 5-save_to_json_file -- Save object to file as json
+- 6-load_from_json_file -- Load object from file
