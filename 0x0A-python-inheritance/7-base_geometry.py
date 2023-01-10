@@ -14,7 +14,7 @@ class BaseGeometry:
         Not yet implemented method
         Raises Exception if called
         """
-        raise Exception("area() not implemented")
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """
