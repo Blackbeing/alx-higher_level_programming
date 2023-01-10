@@ -4,3 +4,4 @@
 - 2-append_write -- Append text to file
 - 3-to_json_string -- Convert object to json string
 - 4-from_json_string -- Convert json string to object
+- 5-save_to_json_file -- Save object to file as json
