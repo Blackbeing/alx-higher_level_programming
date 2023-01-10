@@ -11,4 +11,5 @@
 - 9-student.py -- Define student class
 - 10-student.py -- Modify to json method in student class
 - 11-student.py -- Update student attributes
+- 12-pascal_triangle.py -- Create list of list repr pascal triangle
 
