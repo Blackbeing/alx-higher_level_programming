@@ -10,4 +10,5 @@
 - 8-class_to_json.py -- Convert class to json
 - 9-student.py -- Define student class
 - 10-student.py -- Modify to json method in student class
+- 11-student.py -- Update student attributes
 

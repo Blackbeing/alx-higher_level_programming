@@ -35,3 +35,12 @@ class Student:
         if not attrs:
             return attr
         return dict(filter(lambda x: x[0] in attrs, attr.items()))
+
+    def reload_from_json(self, json):
+        """
+        Update attributes of instance
+
+        Args:
+            json (dict): Update dict object
+        """
+        self.__dict__.update(json)
