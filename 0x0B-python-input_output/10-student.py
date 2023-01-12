@@ -32,6 +32,6 @@ class Student:
             not k.startswith("__") and isinstance(
                 self.__getattribute__(k), (list, str, bool, int, dict)))}
 
-        if not attrs:
+        if attrs is None:
             return attr
         return dict(filter(lambda x: x[0] in attrs, attr.items()))
