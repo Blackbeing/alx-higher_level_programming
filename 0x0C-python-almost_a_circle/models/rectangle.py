@@ -112,7 +112,25 @@ class Rectangle(Base):
             raise ValueError("y must be >= 0")
 
     def validate_all(self, width, height, x, y):
+        """
+        Runs all validators, wrapper
+
+        Args:
+            width (int): width variable
+            height (int): height variable
+            x (int): x variable
+            y (int): y variable
+        """
         self.validate_width(width)
         self.validate_height(height)
         self.validate_x(x)
         self.validate_y(y)
+
+    def area(self):
+        """
+        Calculate area of rectangle
+
+        Returns:
+            int, area of rectangle
+        """
+        return self.__width * self.__height
