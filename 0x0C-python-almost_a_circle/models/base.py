@@ -3,6 +3,7 @@
 This module provides the Base class for project classes
 """
 import json
+import csv
 from pathlib import Path
 
 
@@ -107,5 +108,45 @@ class Base:
             obj_list = cls.from_json_string(fd.read())
             for obj in obj_list:
                 ret_value.append(cls.create(**obj))
+
+        return ret_value
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """
+        Save object as csv to file
+
+        Args:
+            list_objs (list): List of objects
+        """
+        file_name = f"{cls.__name__}.csv"
+
+        with open(file_name, 'w', newline="") as fd:
+            writer = csv.writer(fd)
+            for obj in list_objs:
+                if cls.__name__ == "Rectangle":
+                    writer.writerow(
+                            [obj.id, obj.width, obj.height, obj.x, obj.y])
+                elif cls.__name__ == "Square":
+                    writer.writerow([obj.id, obj.size, obj.x, obj.y])
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """
+        Load objects from csv file
+
+        Returns:
+            list of objects
+        """
+        file_name = f"{cls.__name__}.csv"
+
+        ret_value = []
+
+        with open(file_name, 'r', newline="") as fd:
+            reader = csv.reader(fd)
+            for row in reader:
+                obj = cls(1, 1)
+                obj.update(*[int(x) for x in row])
+                ret_value.append(obj)
 
         return ret_value
