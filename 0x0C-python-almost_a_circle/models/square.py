@@ -55,4 +55,22 @@ class Square(Rectangle):
                 setattr(self, attr_list[idx], attr)
         else:
             for k, v in kwargs.items():
-                setattr(self, k, v)
+                if k in attr_list:
+                    setattr(self, k, v)
+
+    def to_dictionary(self):
+        """
+        Convert instance to dict object
+
+        Returns:
+            dictionary with object attributes
+        """
+        attr_list = ["id", "size", "x", "y"]
+
+        attr = {k: self.__getattribute__(k) for k in dir(self) if (
+            k in attr_list
+            and not k.startswith("__")
+            and not k.startswith("_")
+            and isinstance(
+                self.__getattribute__(k), (list, str, bool, int, dict)))}
+        return attr
