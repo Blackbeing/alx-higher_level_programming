@@ -139,7 +139,12 @@ class Rectangle(Base):
         """
         Display rectangle object using # to stdout
         """
+        for axis_y in range(self.y):
+            print()
+
         for height in range(self.height):
+            for axis_x in range(self.x):
+                print(" ", end="")
             for width in range(self.width):
                 print("#", end="")
             print()
@@ -153,3 +158,19 @@ class Rectangle(Base):
         """
         return f"""[Rectangle] ({self.id}) {self.x}/{self.y} \
 - {self.width}/{self.height}"""
+
+    def update(self, *args, **kwargs):
+        """
+        Update object instance attributes
+
+        Args:
+            args: non-keyword args
+        """
+        attr_list = ["id", "width", "height", "x", "y"]
+        if args and args is not None:
+            for idx, attr in enumerate(args):
+                setattr(self, attr_list[idx], attr)
+        else:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
+
