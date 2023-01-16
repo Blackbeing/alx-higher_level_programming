@@ -3,6 +3,7 @@
 This module provides the Base class for project classes
 """
 import json
+from pathlib import Path
 
 
 class Base:
@@ -61,7 +62,7 @@ class Base:
             json_string (str): json string
 
         Returns:
-            list
+            list of dicts
         """
         if json_string is None:
             return []
@@ -89,3 +90,20 @@ class Base:
 
         dummy_obj.update(**dictionary)
         return dummy_obj
+
+    @classmethod
+    def load_from_file(cls):
+        """
+        Load instance from file
+        """
+        file_name = f"{cls.__name__}.json"
+        if not Path(file_name).exists():
+            return []
+
+        ret_value = []
+        with open(file_name, 'r') as fd:
+            obj_list = cls.from_json_string(fd.read())
+            for obj in obj_list:
+                ret_value.append(cls.create(**obj))
+
+        return ret_value
