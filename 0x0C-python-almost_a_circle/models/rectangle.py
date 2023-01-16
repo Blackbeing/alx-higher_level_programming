@@ -173,7 +173,8 @@ class Rectangle(Base):
                 setattr(self, attr_list[idx], attr)
         else:
             for k, v in kwargs.items():
-                setattr(self, k, v)
+                if k in attr_list:
+                    setattr(self, k, v)
 
     def to_dictionary(self):
         """
