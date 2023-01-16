@@ -165,6 +165,7 @@ class Rectangle(Base):
 
         Args:
             args: non-keyword args
+            kwargs: keyword args
         """
         attr_list = ["id", "width", "height", "x", "y"]
         if args and args is not None:
@@ -174,3 +175,14 @@ class Rectangle(Base):
             for k, v in kwargs.items():
                 setattr(self, k, v)
 
+    def to_dictionary(self):
+        """
+        Convert instance to dict object
+
+        Returns:
+            dictionary with object attributes
+        """
+        attr = {k: self.__getattribute__(k) for k in dir(self) if (
+            not k.startswith("__") and not k.startswith("_") and isinstance(
+                self.__getattribute__(k), (list, str, bool, int, dict)))}
+        return attr
