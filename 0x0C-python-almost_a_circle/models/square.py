@@ -40,3 +40,19 @@ class Square(Rectangle):
         self.validate_width(value)
         self._Rectangle__width = value
         self._Rectangle__height = value
+
+    def update(self, *args, **kwargs):
+        """
+        Update object instance attributes
+
+        Args:
+            args: non-keyword args
+            kwargs: keyword args
+        """
+        attr_list = ["id", "size", "x", "y"]
+        if args and args is not None:
+            for idx, attr in enumerate(args):
+                setattr(self, attr_list[idx], attr)
+        else:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
