@@ -52,3 +52,17 @@ class Base:
 
         with open(file_name, 'w', encoding='utf-8') as fd:
             fd.write(to_write)
+
+    def from_json_string(json_string):
+        """
+        Convert json string to list
+
+        Args:
+            json_string (str): json string
+
+        Returns:
+            list
+        """
+        if json_string is None:
+            return []
+        return json.loads(json_string)
