@@ -2,7 +2,6 @@
 
 import unittest
 from models.rectangle import Rectangle
-from unittest.mock import patch
 from io import StringIO
 
 
