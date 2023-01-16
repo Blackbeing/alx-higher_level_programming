@@ -2,6 +2,7 @@
 """
 This module provides the Base class for project classes
 """
+import json
 
 
 class Base:
@@ -18,3 +19,17 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
+
+    def to_json_string(list_dictionaries):
+        """
+        Converts list of dicts to json string
+
+        Args:
+            list_dictionaries (list): list of dicts
+
+        Returns:
+            Json string
+        """
+        if list_dictionaries is None:
+            return "[]"
+        return json.dumps(list_dictionaries)
