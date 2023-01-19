@@ -4,18 +4,22 @@ This module provides the Base class for project classes
 """
 import json
 import csv
-from pathlib import Path
+import os
 
 
 class Base:
     """
     Base class for other project classes
-
-    __init__ initializes object with id attribute
     """
     __nb_objects = 0
 
     def __init__(self, id=None):
+        """
+        __init__ initializes object with id attribute
+
+        Args:
+            id (int): Id of base object
+        """
         if id is not None:
             self.id = id
         else:
@@ -48,7 +52,7 @@ class Base:
 
         file_name = f"{cls.__name__}.json"
         if list_objs is None:
-            to_write = cls.to_json_string()
+            to_write = cls.to_json_string([])
         else:
             to_write = cls.to_json_string(
                     [obj.to_dictionary() for obj in list_objs])
@@ -100,7 +104,7 @@ class Base:
         Load instance from file
         """
         file_name = f"{cls.__name__}.json"
-        if not Path(file_name).exists():
+        if not os.path.exists(file_name):
             return []
 
         ret_value = []
