@@ -10,3 +10,4 @@
 - 8-count_89.sql -- Count rows
 - 9-full_creation.sql -- Create table and insert rows
 - 10-top_score.sql -- List rows and order them
+- 11-best_score.sql -- List rows, order them and filter them

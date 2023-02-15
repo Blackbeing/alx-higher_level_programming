@@ -1,0 +1,2 @@
+-- Select rows and filter them
+SELECT score, name FROM second_table WHERE score >= 10 ORDER BY score DESC;
