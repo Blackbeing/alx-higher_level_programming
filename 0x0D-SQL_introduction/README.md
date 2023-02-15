@@ -12,3 +12,5 @@
 - 10-top_score.sql -- List rows and order them
 - 11-best_score.sql -- List rows, order them and filter them
 - 12-no_cheating.sql -- Update row in table
+- 13-change_class.sql -- Remove filtered rows
+
