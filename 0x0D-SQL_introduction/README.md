@@ -11,3 +11,4 @@
 - 9-full_creation.sql -- Create table and insert rows
 - 10-top_score.sql -- List rows and order them
 - 11-best_score.sql -- List rows, order them and filter them
+- 12-no_cheating.sql -- Update row in table
