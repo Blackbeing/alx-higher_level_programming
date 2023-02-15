@@ -15,4 +15,5 @@
 - 13-change_class.sql -- Remove filtered rows
 - 14-average.sql -- Get average of numeric column
 - 15-groups.sql -- Group rows with same column value
+- 16-no_link.sql -- Filter out null value rows
 
