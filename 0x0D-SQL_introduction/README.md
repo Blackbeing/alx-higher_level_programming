@@ -7,3 +7,4 @@
 - 5-full_table.sql -- Show table description
 - 6-list_values.sql -- List table row values
 - 7-insert_value.sql -- Insert row into table
+- 8-count_89.sql -- Count rows
