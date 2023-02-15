@@ -5,3 +5,4 @@
 - 3-list_tables.sql -- List database tables
 - 4-first_table.sql -- Create table
 - 5-full_table.sql -- Show table description
+- 6-list_values.sql -- List table row values
