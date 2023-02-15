@@ -14,4 +14,5 @@
 - 12-no_cheating.sql -- Update row in table
 - 13-change_class.sql -- Remove filtered rows
 - 14-average.sql -- Get average of numeric column
+- 15-groups.sql -- Group rows with same column value
 
