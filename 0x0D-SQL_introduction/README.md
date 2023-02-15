@@ -4,3 +4,4 @@
 - 2-remove_database.sql -- Drop database
 - 3-list_tables.sql -- List database tables
 - 4-first_table.sql -- Create table
+- 5-full_table.sql -- Show table description
