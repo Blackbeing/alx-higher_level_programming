@@ -11,3 +11,4 @@
 - 9-cities_by_state_join.sql -- Use JOIN in query 
 - 10-genre_id_by_show.sql -- Use JOIN in query (2)
 - 11-genre_id_all_shows.sql -- USE LEFT OUTER JOIN
+- 12-no_genre.sql -- USE LEFT OUTER JOIN with WHERE clause
