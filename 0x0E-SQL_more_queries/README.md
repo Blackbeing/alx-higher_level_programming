@@ -9,3 +9,4 @@
 - 7-cities.sql -- Create db, table, use FOREIGN KEY
 - 8-cities_of_california_subquery.sql -- Use subquery
 - 9-cities_by_state_join.sql -- Use JOIN in query 
+- 10-genre_id_by_show.sql -- Use JOIN in query (2)
