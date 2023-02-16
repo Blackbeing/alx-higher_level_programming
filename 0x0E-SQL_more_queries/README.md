@@ -7,3 +7,4 @@
 - 5-unique_id.sql --  Create table, use DEFAULT and UNIQUE constraint
 - 6-states.sql -- Create db, table, use PRIMARY KEY
 - 7-cities.sql -- Create db, table, use FOREIGN KEY
+- 8-cities_of_california_subquery.sql -- Use subquery
