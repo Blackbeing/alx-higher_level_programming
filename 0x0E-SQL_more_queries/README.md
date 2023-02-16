@@ -14,3 +14,4 @@
 - 12-no_genre.sql -- USE LEFT OUTER JOIN with WHERE clause
 - 13-count_shows_by_genre.sql -- USE JOIN with GROUP clause
 - 14-my_genres.sql -- USE mulitple JOIN with WHERE clause
+- 15-comedy_only.sql -- List all comedy Shows using JOINS
