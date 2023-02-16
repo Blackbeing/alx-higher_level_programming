@@ -5,3 +5,4 @@
 - 3-force_name.sql -- Create table, ensure value is not null
 - 4-never_empty.sql -- Create table, use DEFAULT constraint
 - 5-unique_id.sql --  Create table, use DEFAULT and UNIQUE constraint
+- 6-states.sql -- Create db, table, use PRIMARY KEY
