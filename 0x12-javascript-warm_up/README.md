@@ -2,3 +2,4 @@
 0-javascript_is_amazing.js -- Print string
 1-multi_languages.js -- Print multiple strings
 2-arguments.js -- JS arguments
+3-value_argument.js -- Js arguments
