@@ -4,3 +4,4 @@
 2-arguments.js -- JS arguments
 3-value_argument.js -- Js arguments
 4-concat.js -- Concat strings
+5-to_integer.js -- Type cast object to integer
