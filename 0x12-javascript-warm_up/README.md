@@ -10,3 +10,4 @@
 8-square.js -- Print square on console
 9-add.js -- JS Function (add)
 10-factorial.js -- JS recursion 
+11-second_biggest.js -- Print second largest item in list
