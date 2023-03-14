@@ -7,3 +7,4 @@
 5-to_integer.js -- Type cast object to integer
 6-multi_languages_loop.js -- JS Loops
 7-multi_c.js -- Js loops and cmd args
+8-square.js -- Print square on console
