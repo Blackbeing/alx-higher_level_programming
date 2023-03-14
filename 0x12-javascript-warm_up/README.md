@@ -8,3 +8,4 @@
 6-multi_languages_loop.js -- JS Loops
 7-multi_c.js -- Js loops and cmd args
 8-square.js -- Print square on console
+9-add.js -- JS Function (add)
