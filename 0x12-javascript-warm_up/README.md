@@ -12,3 +12,4 @@
 10-factorial.js -- JS recursion 
 11-second_biggest.js -- Print second largest item in list
 12-object.js -- JS objects
+13-add.js -- Export named function
