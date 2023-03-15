@@ -10,3 +10,4 @@
 - 7-occurrences.js -- Find number of occurences in list
 - 8-esrever.js -- Reverse list
 - 9-logme.js -- Log counts of function calls
+- 10-converter.js -- Create function wrapper in JS
