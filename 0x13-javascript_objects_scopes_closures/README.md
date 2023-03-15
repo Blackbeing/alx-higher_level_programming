@@ -4,3 +4,4 @@
 - 1-rectangle.js -- Add class attributes
 - 2-rectangle.js -- Return empty object in construcor
 - 3-rectangle.js -- Print Rectangle using "X"
+- 4-rectangle.js -- Rotate, double rectangle
