@@ -8,3 +8,4 @@
 - 5-square.js -- Create Square class
 - 6-square.js -- Add method to square class
 - 7-occurrences.js -- Find number of occurences in list
+- 8-esrever.js -- Reverse list
