@@ -7,3 +7,4 @@
 - 4-rectangle.js -- Rotate, double rectangle
 - 5-square.js -- Create Square class
 - 6-square.js -- Add method to square class
+- 7-occurrences.js -- Find number of occurences in list
