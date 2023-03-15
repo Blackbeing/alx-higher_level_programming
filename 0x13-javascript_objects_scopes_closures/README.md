@@ -9,3 +9,4 @@
 - 6-square.js -- Add method to square class
 - 7-occurrences.js -- Find number of occurences in list
 - 8-esrever.js -- Reverse list
+- 9-logme.js -- Log counts of function calls
