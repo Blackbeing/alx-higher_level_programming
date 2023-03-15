@@ -12,3 +12,4 @@
 - 9-logme.js -- Log counts of function calls
 - 10-converter.js -- Create function wrapper in JS
 - 100-map.js -- Use map on list object
+- 101-sorted.js -- Sort dict by value ex. {value: [keys..]}
