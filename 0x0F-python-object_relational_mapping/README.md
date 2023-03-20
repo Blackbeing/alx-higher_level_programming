@@ -5,4 +5,5 @@
 - 3-my_safe_filter_states.py -- Use parameterized queries (avoid SQL injection)
 - 4-cities_by_state.py -- Use Join KEYWORD
 - 5-filter_cities.py -- Use Join KEYWORD (part2)
+- model_state.py -- SQLAlchemy State model
 
