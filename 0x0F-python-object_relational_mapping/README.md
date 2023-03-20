@@ -8,4 +8,5 @@
 - model_state.py -- SQLAlchemy State model
 - 7-model_state_fetch_all.py -- Fetch all using ORM
 - 8-model_state_fetch_first.py -- Fetch first using ORM
+- 9-model_state_filter_a.py -- Filter search results 
 
