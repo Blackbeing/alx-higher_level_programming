@@ -6,4 +6,5 @@
 - 4-cities_by_state.py -- Use Join KEYWORD
 - 5-filter_cities.py -- Use Join KEYWORD (part2)
 - model_state.py -- SQLAlchemy State model
+- 7-model_state_fetch_all.py -- Fetch all using ORM
 
