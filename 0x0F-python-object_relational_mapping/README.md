@@ -13,3 +13,4 @@
 - 11-model_state_insert.py -- Create and save object using ORM
 - 12-model_state_update_id_2.py -- Update object using ORM
 - 13-model_state_delete_a.py -- Delete objects using ORM
+- model_city.py, 14-model_city_fetch_by_state.py -- Create City model, fetch all cities from db using ORM
