@@ -8,6 +8,6 @@
 - model_state.py -- SQLAlchemy State model
 - 7-model_state_fetch_all.py -- Fetch all using ORM
 - 8-model_state_fetch_first.py -- Fetch first using ORM
-- 9-model_state_filter_a.py -- Filter search results 
-- 10-model_state_my_get.py -- Get object
-
+- 9-model_state_filter_a.py -- Filter search results  using ORM
+- 10-model_state_my_get.py -- Get object using ORM
+- 11-model_state_insert.py -- Create and save object using ORM
