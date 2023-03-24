@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+This module creates SQLAlchemy engine,
+fetches all object that contains "a" in the name
+"""
 import sys
 from model_state import Base, State
 from sqlalchemy.orm import Session
@@ -15,13 +19,10 @@ if __name__ == "__main__":
 
     stmt = (
         select(State.id, State.name)
-        .where(State.name.contains("a"))
+        .filter(State.name.like("%a%"))
         .order_by(asc(State.id))
     )
     with Session(engine) as session:
-        states = session.execute(stmt).fetchall()
-        if states is None:
-            print("Nothing")
-        else:
-            for state in states:
-                print("{}: {}".format(*state))
+        states = session.execute(stmt).all()
+        for state in states:
+            print("{}: {}".format(*state))
