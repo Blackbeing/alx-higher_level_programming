@@ -11,6 +11,10 @@ Base = declarative_base()
 
 
 class State(Base):
+    """
+    This class defines an SQLAlchemy table State
+    Has id and name column
+    """
     __tablename__ = "states"
 
     id = Column(Integer, primary_key=True, nullable=False)
