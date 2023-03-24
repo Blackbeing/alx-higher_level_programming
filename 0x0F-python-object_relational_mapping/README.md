@@ -12,3 +12,4 @@
 - 10-model_state_my_get.py -- Get object using ORM
 - 11-model_state_insert.py -- Create and save object using ORM
 - 12-model_state_update_id_2.py -- Update object using ORM
+- 13-model_state_delete_a.py -- Delete objects using ORM
