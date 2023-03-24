@@ -11,3 +11,4 @@
 - 9-model_state_filter_a.py -- Filter search results  using ORM
 - 10-model_state_my_get.py -- Get object using ORM
 - 11-model_state_insert.py -- Create and save object using ORM
+- 12-model_state_update_id_2.py -- Update object using ORM
