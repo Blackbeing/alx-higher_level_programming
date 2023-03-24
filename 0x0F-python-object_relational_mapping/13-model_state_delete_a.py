@@ -10,7 +10,7 @@ from sqlalchemy import select, create_engine, asc
 
 if __name__ == "__main__":
     user, passwd, db = sys.argv[1:4]
-    host = "db"
+    host = "localhost"
     engine = create_engine(
         "mysql+mysqldb://{}:{}@{}/{}".format(user, passwd, host, db),
         pool_pre_ping=True,
