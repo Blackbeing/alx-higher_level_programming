@@ -14,3 +14,4 @@
 - 12-model_state_update_id_2.py -- Update object using ORM
 - 13-model_state_delete_a.py -- Delete objects using ORM
 - model_city.py, 14-model_city_fetch_by_state.py -- Create City model, fetch all cities from db using ORM
+- relationship_city.py, relationship_state.py, 100-relationship_states_cities.py -- Create tables using ORM, create relationship using ORM
