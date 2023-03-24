@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+"""
+This model creates an SQLAlchemy engine,
+fetches first state from database and prints it
+"""
 import sys
 from model_state import Base, State
 from sqlalchemy.orm import Session
@@ -13,7 +17,7 @@ if __name__ == "__main__":
     )
     Base.metadata.create_all(engine)
 
-    stmt = select(State.id, State.name).order_by(State.id)
+    stmt = select(State.id, State.name)
     with Session(engine) as session:
         state = session.execute(stmt).first()
         if state is None:
