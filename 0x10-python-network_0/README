@@ -4,3 +4,4 @@
 - 2-delete.sh -- Send DELETE request
 - 3-methods.sh -- Get allowed http methods
 - 4-header.sh -- Add header using curl
+- 5-post_params.sh -- Send post request and display POST params
