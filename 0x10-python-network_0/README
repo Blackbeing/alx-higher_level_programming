@@ -3,3 +3,4 @@
 - 1-body.sh -- Display conent of response if successful
 - 2-delete.sh -- Send DELETE request
 - 3-methods.sh -- Get allowed http methods
+- 4-header.sh -- Add header using curl
