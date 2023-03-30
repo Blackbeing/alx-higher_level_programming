@@ -2,3 +2,4 @@
 - 0-body_size.sh -- Display body size of response content
 - 1-body.sh -- Display conent of response if successful
 - 2-delete.sh -- Send DELETE request
+- 3-methods.sh -- Get allowed http methods
