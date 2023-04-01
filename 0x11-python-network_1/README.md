@@ -9,3 +9,4 @@
 - 7-error_code.py -- Get server HTTP Errors using requests
 - 8-json_api.py -- POST data and parse json response
 - 10-my_github.py -- Authentication using BasicAuth in requests
+- 100-github_commits.py -- List github commits from requests Github API
