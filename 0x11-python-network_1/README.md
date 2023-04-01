@@ -8,3 +8,4 @@
 - 6-post_email.py -- Send data in POST request using requests
 - 7-error_code.py -- Get server HTTP Errors using requests
 - 8-json_api.py -- POST data and parse json response
+- 10-my_github.py -- Authentication using BasicAuth in requests
