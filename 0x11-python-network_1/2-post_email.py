@@ -12,4 +12,4 @@ if __name__ == "__main__":
     data = urlencode({"email": email}).encode("ascii")
 
     with request.urlopen(url, data=data) as res:
-        print(res.read1().decode("utf-8"))
+        print(res.read().decode("utf-8"))
